@@ -30,5 +30,6 @@
 		"mlc01",
 		"hfiomlc01",
 		"memorySearcher"
-	]
+	],
+	"pre_install": "Add-Content \"$dir\\keys.txt\" $null; Add-Content \"$dir\\settings.bin\" $null"
 }
