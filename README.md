@@ -14,3 +14,4 @@ Scoop bucket for my packages (code not made by me, only the packages). If you wa
 - Cemu 1.11.2 doesn't work with this as the extraction directory doesn't have an underscore in it. You can fix this by going to the cache folder in your scoop directory, and renaming the directory within the zip to `cemu_1.11.2`.
 - Run `scoop update cemu` to update Cemu.
 - Persistence should work for most of the folders in cemu, however please check the cemu folder before you run `scoop cleanup`.
+- To fully remove all versions of Cemu and settings, type `scoop cache rm cemu` then `scoop uninstall cemu -p`.
