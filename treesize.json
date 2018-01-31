@@ -8,5 +8,9 @@
 			"TreeSizeFree.exe",
 			"TreeSize Free"
 		]
-	]
+	],
+	"checkver": {
+		"url": "https://www.jam-software.de/customers/downloadTrial.php?article_no=80&language=EN",
+		"re": "TreeSize Free V([\\d.]+)"
+	}
 }
