@@ -1,4 +1,5 @@
 # Cemu Installation guide with Scoop
+[Guide for Dolphin](https://github.com/comp500/scoop-comp500/blob/master/Dolphin.md)
 
 ### Prerequisites
 - PowerShell 3 or newer, usually included with Windows 10, Windows 8 and installable for Windows 7
