@@ -15,5 +15,10 @@
 	},
 	"autoupdate": {
 		"url": "https://dl.dolphin-emu.org/builds/dolphin-master-$version-x64.7z"
+	},
+	"suggest": {
+		"Microsoft Visual C++ 2017 X64 Redistributable": [
+			"extras/vcredist2017"
+		]
 	}
 }
