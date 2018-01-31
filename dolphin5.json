@@ -1,0 +1,16 @@
+{
+	"homepage": "https://dolphin-emu.org/download/latest/master/",
+	"version": "5.0",
+	"url": "https://dl-mirror.dolphin-emu.org/5.0/dolphin-x64-5.0.exe#/dl.7z",
+	"shortcuts": [
+		[
+			"Dolphin.exe",
+			"Dolphin"
+		]
+	],
+	"suggest": {
+		"Microsoft Visual C++ 2017 X64 Redistributable": [
+			"extras/vcredist2017"
+		]
+	}
+}
