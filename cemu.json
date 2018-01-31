@@ -31,5 +31,5 @@
 		"hfiomlc01",
 		"memorySearcher"
 	],
-	"pre_install": "Add-Content \"$dir\\keys.txt\" $null; Add-Content \"$dir\\settings.bin\" $null; New-Item -ItemType directory -Path \"$dir\\controllerProfiles\"; New-Item -ItemType directory -Path \"$dir\\memorySearcher\""
+	"pre_install": "Add-Content \"$dir\\keys.txt\" $null; Add-Content \"$dir\\settings.bin\" $null; New-Item -ItemType directory -Path \"$dir\\controllerProfiles\" | Out-Null; New-Item -ItemType directory -Path \"$dir\\memorySearcher\" | Out-Null"
 }
