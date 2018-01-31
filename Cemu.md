@@ -10,7 +10,7 @@
 1. Type `scoop install cemu` to install Cemu.
 1. Cemu is now available as a shortcut in your Start Menu, and at `[Your user directory]\scoop\apps\cemu\current`.
 
-If Cemu does not launch, you need to install Visual C++ Redistributable 2015. This is installable through Scoop as follows:
+If Cemu does not launch, you may need to install Visual C++ Redistributable 2015. This is installable through Scoop as follows:
 1. Run `scoop bucket add extras`
 1. Run `scoop install vcredist2015`
 
@@ -25,6 +25,6 @@ If Cemu does not launch, you need to install Visual C++ Redistributable 2015. Th
 
   e.g `scoop install cemu@1.11.3`
   
-- Cemu 1.11.2 doesn't work with this as the extraction directory doesn't have an underscore in it. You can fix this by going to the cache folder in your scoop directory, and renaming the directory within the zip to `cemu_1.11.2`.
+- Cemu 1.11.2 doesn't work with this as the extraction directory doesn't have an underscore in it. You can fix this after attempting the download by going to the cache folder in your scoop directory, and renaming the directory within the zip to `cemu_1.11.2`.
 - Some (especially older) versions may break or show errors with this, as the folder structure is different.
 - To change the installed Cemu version used for shortcuts, run `scoop reset cemu@version`.
