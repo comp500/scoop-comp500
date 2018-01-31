@@ -2,6 +2,7 @@
 	"homepage": "https://dolphin-emu.org/download/latest/master/",
 	"version": "5.0-6255",
 	"url": "https://dl.dolphin-emu.org/builds/dolphin-master-5.0-6255-x64.7z",
+	"hash": "7ce909017c262ca5cb7d56a84397e975963799366a9b75d902b6cb8a47661583",
 	"extract_dir": "Dolphin-x64",
 	"shortcuts": [
 		[
