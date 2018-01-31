@@ -10,7 +10,7 @@
 			"Cemu"
 		]
 	],
-	"checkver": "Download latest version \\(v(.+),",
+	"checkver": "http://cemu.info/releases/cemu_(.+).zip",
 	"autoupdate": {
 		"url": "http://cemu.info/releases/cemu_$version.zip",
 		"extract_dir": "cemu_$version"
