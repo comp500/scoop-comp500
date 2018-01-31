@@ -19,5 +19,16 @@
 		"Microsoft Visual C++ 2015 X64 Redistributable": [
 			"extras/vcredist2015"
 		]
-	}
+	},
+	"persist": [
+		"keys.txt",
+		"settings.bin",
+		"controllerProfiles",
+		"gameProfiles",
+		"graphicPacks",
+		"shaderCache/transferable",
+		"mlc01",
+		"hfiomlc01",
+		"memorySearcher"
+	]
 }
