@@ -5,3 +5,4 @@ $checkver = "$bin\checkver.ps1"
 $dir = "$psscriptroot" # checks the current dir; modify if you need something else
 
 & $checkver -app $app -dir $dir -u
+pause
