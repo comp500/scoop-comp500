@@ -1,7 +1,12 @@
 {
 	"homepage": "https://sshnuke.net/cemuhook/",
 	"version": "0.5.6.3",
-	"url": "https://files.sshnuke.net/cemuhook_1114_0563.zip",
+	"url": [
+		"http://files.sshnuke.net/cemuhook_1114_0563.zip",
+		"https://github.com/comp500/scoop-comp500/raw/master/cemuhook-uninstall.ps1",
+		"https://github.com/comp500/scoop-comp500/raw/master/cemuhook-install.ps1"
+	],
+	"hash": "013aac51b84c42ef4a87a6e98b0a4dd62ec977bb9c7dfe4d5ed62c6377d2edf9",
 	"checkver": "cemuhook_(?<short>[\\d]+_[\\d]+).zip\">.*?Cemu hook (?<version>[\\d.]+)",
 	"autoupdate": {
 		"url": "https://files.sshnuke.net/cemuhook_$matchShort.zip"
@@ -9,8 +14,11 @@
 	"depends": [
 		"comp500/cemu"
 	],
-	"post_install": "
-		& \"$env:COMSPEC\" /c mklink /j \"$dir\\gameProfiles\" \"$global\\cemu\\current\\gameProfiles\\cemuhook\" | out-null
-	",
+	"installer": {
+		"keep": true
+	},
+	"uninstaller": {
+		"file": "cemuhook-uninstall.ps1"
+	},
 	"notes": "DO NOT USE THIS"
 }

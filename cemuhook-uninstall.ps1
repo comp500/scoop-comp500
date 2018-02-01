@@ -1,0 +1,1 @@
+rm  "$dir\..\..\cemu\current\dbghelp.dll"
