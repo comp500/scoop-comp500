@@ -8,4 +8,4 @@ write-output "Removing link to sample_patches.zip..."
 rm "$dir\..\..\cemu\current\graphicPacks\sample_patches.zip"
 
 write-output "Removing link to BreathOfTheWild_LwzxNullCheck..."
-rm -r "$dir\..\..\cemu\current\graphicPacks\BreathOfTheWild_LwzxNullCheck"
+rm -r -Force "$dir\..\..\cemu\current\graphicPacks\BreathOfTheWild_LwzxNullCheck"
