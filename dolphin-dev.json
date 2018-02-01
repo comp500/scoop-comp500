@@ -1,25 +1,25 @@
 {
-	"homepage": "https://dolphin-emu.org/download/latest/master/",
-	"version": "5.0-6255",
-	"url": "https://dl.dolphin-emu.org/builds/dolphin-master-5.0-6255-x64.7z",
-	"hash": "7ce909017c262ca5cb7d56a84397e975963799366a9b75d902b6cb8a47661583",
-	"extract_dir": "Dolphin-x64",
-	"shortcuts": [
-		[
-			"Dolphin.exe",
-			"Dolphin"
-		]
-	],
-	"checkver": {
-		"url": "https://dolphin-emu.org/download/buildlist",
-		"re": "\\[\\s?\"([\\d.-]+)\""
-	},
-	"autoupdate": {
-		"url": "https://dl.dolphin-emu.org/builds/dolphin-master-$version-x64.7z"
-	},
-	"suggest": {
-		"Microsoft Visual C++ 2017 X64 Redistributable": [
-			"extras/vcredist2017"
-		]
-	}
+    "homepage": "https://dolphin-emu.org/download/latest/master/",
+    "version": "5.0-6257",
+    "url": "https://dl.dolphin-emu.org/builds/dolphin-master-5.0-6257-x64.7z",
+    "hash": "21c6f49b9a926f54afa358a898a65d5ea0fbc00b7201957cb88f4fa7359bc71a",
+    "extract_dir": "Dolphin-x64",
+    "shortcuts": [
+        [
+            "Dolphin.exe",
+            "Dolphin"
+        ]
+    ],
+    "checkver": {
+        "url": "https://dolphin-emu.org/download/buildlist",
+        "re": "\\[\\s?\"([\\d.-]+)\""
+    },
+    "autoupdate": {
+        "url": "https://dl.dolphin-emu.org/builds/dolphin-master-$version-x64.7z"
+    },
+    "suggest": {
+        "Microsoft Visual C++ 2017 X64 Redistributable": [
+            "extras/vcredist2017"
+        ]
+    }
 }
