@@ -12,7 +12,7 @@
 	],
 	"checkver": {
 		"url": "https://dolphin-emu.org/download/buildlist",
-		"jp": "$[0]"
+		"re": "\\[\\s?\"([\\d.-]+)\""
 	},
 	"autoupdate": {
 		"url": "https://dl.dolphin-emu.org/builds/dolphin-master-$version-x64.7z"
