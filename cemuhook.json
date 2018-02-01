@@ -6,7 +6,9 @@
 		"https://github.com/comp500/scoop-comp500/raw/master/cemuhook-uninstall.ps1",
 		"https://github.com/comp500/scoop-comp500/raw/master/cemuhook-install.ps1"
 	],
-	"hash": "013aac51b84c42ef4a87a6e98b0a4dd62ec977bb9c7dfe4d5ed62c6377d2edf9",
+	"hash": [
+		"013aac51b84c42ef4a87a6e98b0a4dd62ec977bb9c7dfe4d5ed62c6377d2edf9"
+	],
 	"checkver": "cemuhook_(?<short>[\\d]+_[\\d]+).zip\">.*?Cemu hook (?<version>[\\d.]+)",
 	"autoupdate": {
 		"url": "https://files.sshnuke.net/cemuhook_$matchShort.zip"
@@ -20,5 +22,5 @@
 	"uninstaller": {
 		"file": "cemuhook-uninstall.ps1"
 	},
-	"notes": "DO NOT USE THIS"
+	"notes": "When upgrading cemu, run cemuhook-install.ps1 or reinstall this package to fix cemuhook."
 }
