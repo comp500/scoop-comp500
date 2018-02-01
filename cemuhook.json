@@ -1,0 +1,16 @@
+{
+	"homepage": "https://sshnuke.net/cemuhook/",
+	"version": "0.5.6.3",
+	"url": "https://files.sshnuke.net/cemuhook_1114_0563.zip",
+	"checkver": "cemuhook_(?<short>[\\d]+_[\\d]+).zip\">.*?Cemu hook (?<version>[\\d.]+)",
+	"autoupdate": {
+		"url": "https://files.sshnuke.net/cemuhook_$matchShort.zip"
+	},
+	"depends": [
+		"comp500/cemu"
+	],
+	"post_install": "
+		& \"$env:COMSPEC\" /c mklink /j \"$dir\\gameProfiles\" \"$global\\cemu\\current\\gameProfiles\\cemuhook\" | out-null
+	",
+	"notes": "DO NOT USE THIS"
+}
