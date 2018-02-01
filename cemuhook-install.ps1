@@ -23,4 +23,4 @@ if (!$botwExists) {
 }
 
 write-output "Copying gameProfiles..."
-Copy-Item -Path "$dir\gameProfiles" -Destination "$dir\..\..\cemu\current" -Recurse
+Copy-Item -Path "$dir\gameProfiles" -Destination "$dir\..\..\cemu\current" -Recurse -Force
