@@ -1,31 +1,31 @@
 {
-	"homepage": "https://slashiee.github.io/cemu_graphic_packs/",
-	"version": "670",
-	"url": [
-		"https://github.com/slashiee/cemu_graphic_packs/releases/download/appveyor670/graphicPacks_2-670.zip",
-		"https://github.com/comp500/scoop-comp500/raw/master/cemugraphicspacks-uninstall.ps1",
-		"https://github.com/comp500/scoop-comp500/raw/master/cemugraphicspacks-install.ps1"
-	],
-	"hash": [
-		"89c5d6306d77ab3f032ed48e1ff18d85cfd8c60676485b65b845866501dd21a0",
-		"",
-		""
-	],
-	"checkver": {
-		"url": "https://api.github.com/repos/slashiee/cemu_graphic_packs/releases/latest",
-		"jp": "$.tag_name",
-		"re": "appveyor(\\d+)"
-	},
-	"autoupdate": {
-		"url": "https://github.com/slashiee/cemu_graphic_packs/releases/download/appveyor$version/graphicPacks_2-$version.zip"
-	},
-	"depends": [
-		"comp500/cemu"
-	],
-	"installer": {
-		"keep": true
-	},
-	"uninstaller": {
-		"file": "cemugraphicspacks-uninstall.ps1"
-	}
+    "homepage": "https://slashiee.github.io/cemu_graphic_packs/",
+    "version": "671",
+    "url": [
+        "https://github.com/slashiee/cemu_graphic_packs/releases/download/appveyor671/graphicPacks_2-671.zip",
+        "https://github.com/comp500/scoop-comp500/raw/master/cemugraphicspacks-uninstall.ps1",
+        "https://github.com/comp500/scoop-comp500/raw/master/cemugraphicspacks-install.ps1"
+    ],
+    "hash": [
+        "cb2902298eaf6955885640b14be5b87ec077869be03f78826c476449a408fe4a",
+        "",
+        ""
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/slashiee/cemu_graphic_packs/releases/latest",
+        "jp": "$.tag_name",
+        "re": "appveyor(\\d+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/slashiee/cemu_graphic_packs/releases/download/appveyor$version/graphicPacks_2-$version.zip"
+    },
+    "depends": [
+        "comp500/cemu"
+    ],
+    "installer": {
+        "keep": true
+    },
+    "uninstaller": {
+        "file": "cemugraphicspacks-uninstall.ps1"
+    }
 }
