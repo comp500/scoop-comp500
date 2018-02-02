@@ -6,6 +6,11 @@
 		"https://github.com/comp500/scoop-comp500/raw/master/cemugraphicspacks-uninstall.ps1",
 		"https://github.com/comp500/scoop-comp500/raw/master/cemugraphicspacks-install.ps1"
 	],
+	"hash": [
+		"89c5d6306d77ab3f032ed48e1ff18d85cfd8c60676485b65b845866501dd21a0",
+		"",
+		""
+	],
 	"checkver": {
 		"url": "https://api.github.com/repos/slashiee/cemu_graphic_packs/releases/latest",
 		"jp": "$.tag_name"
