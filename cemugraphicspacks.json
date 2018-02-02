@@ -1,6 +1,6 @@
 {
 	"homepage": "https://slashiee.github.io/cemu_graphic_packs/",
-	"version": "appveyor670",
+	"version": "670",
 	"url": [
 		"https://github.com/slashiee/cemu_graphic_packs/releases/download/appveyor670/graphicPacks_2-670.zip",
 		"https://github.com/comp500/scoop-comp500/raw/master/cemugraphicspacks-uninstall.ps1",
@@ -13,10 +13,11 @@
 	],
 	"checkver": {
 		"url": "https://api.github.com/repos/slashiee/cemu_graphic_packs/releases/latest",
-		"jp": "$.tag_name"
+		"jp": "$.tag_name",
+		"re": "appveyor(\\d+)"
 	},
 	"autoupdate": {
-		"url": "https://github.com/slashiee/cemu_graphic_packs/releases/download/$version/graphicPacks_2-$cleanVersion.zip"
+		"url": "https://github.com/slashiee/cemu_graphic_packs/releases/download/appveyor$version/graphicPacks_2-$version.zip"
 	},
 	"depends": [
 		"comp500/cemu"
