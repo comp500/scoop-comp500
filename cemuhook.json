@@ -16,7 +16,7 @@
 		"url": "https://files.sshnuke.net/cemuhook_$matchShort.zip"
 	},
 	"depends": [
-		"comp500/cemu"
+		"cemu"
 	],
 	"installer": {
 		"keep": true

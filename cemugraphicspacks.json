@@ -20,7 +20,7 @@
         "url": "https://github.com/slashiee/cemu_graphic_packs/releases/download/appveyor$version/graphicPacks_2-$version.zip"
     },
     "depends": [
-        "comp500/cemu"
+        "cemu"
     ],
     "installer": {
         "keep": true
