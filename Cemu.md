@@ -28,3 +28,16 @@ If Cemu does not launch, you may need to install Visual C++ Redistributable 2015
 - Cemu 1.11.2 doesn't work with this as the extraction directory doesn't have an underscore in it. You can fix this after attempting the download by going to the cache folder in your scoop directory, and renaming the directory within the zip to `cemu_1.11.2`.
 - Some (especially older) versions may break or show errors with this, as the folder structure is different.
 - To change the installed Cemu version used for shortcuts, run `scoop reset cemu@version`.
+
+# Cemu Addons
+Addons available:
+- ~~`cemuhook` Cemuhook by rajkosto~~ Doesn't work in current scoop, see [this PR discussion](https://github.com/lukesampson/scoop/pull/1385)
+- `cemugraphicspacks` Cemu Graphics Packs by slashiee
+
+These addons will link themselves into your Cemu install, so that Cemu can use them. Make sure you use the correct uninstall method (`scoop uninstall`) to remove them, as that will ensure that they are removed from your Cemu install properly.
+
+## Notes
+- When updating Cemu, uninstall and reinstall cemuhook, or run cemuhook-install.ps1 in the cemuhook directory.
+- Ideally uninstall all addons before uninstalling Cemu.
+- Linking graphics packs can take a while, and could trigger antiviruses. Please wait for the process to complete. If it does not, you should go into `[Your user directory]\scoop\apps\cemu\current\graphicsPacks` to manually remove them.
+- Occasionally the error `ERROR Couldn't remove '~\scoop\apps\cemugraphicspacks\671'; it may be in use.` or "Access denied" occurs when uninstalling cemu graphics packs. Restart your computer (or wait a while) to fix this problem.

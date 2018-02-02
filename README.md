@@ -6,7 +6,9 @@ Scoop bucket for my packages (code not made by me, only the packages). If you wa
 The above guides are also useful for other programs in this bucket.
 
 ## Packages included
-- `treesize` TreeSize Free by JAM Software
 - `cemu` Cemu Wii U Emulator
+- ~~`cemuhook` Cemuhook by rajkosto~~ Doesn't work in current scoop, see [this PR discussion](https://github.com/lukesampson/scoop/pull/1385)
+- `cemugraphicspacks` Cemu Graphics Packs by slashiee
 - `dolphin-dev` Development version of Dolphin (latest)
 - `dolphin5` Dolphin 5
+- `treesize` TreeSize Free by JAM Software
