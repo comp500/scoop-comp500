@@ -12,3 +12,4 @@ The above guides are also useful for other programs in this bucket.
 - `dolphin-dev` Development version of Dolphin (latest)
 - `dolphin5` Dolphin 5
 - `treesize` TreeSize Free by JAM Software
+- `openttd` OpenTTD
