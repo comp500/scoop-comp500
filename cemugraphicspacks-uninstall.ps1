@@ -3,7 +3,7 @@ if ($cemuExists) {
 	Get-ChildItem $dir -Recurse -Directory |
 	ForEach-Object {
 		write-output "Unlinking $($_.Name)"
-		rm -r -Force "$dir\..\..\cemu\current\graphicPacks\$($_.Name)"
+		rm -r -Force -LiteralPath "$dir\..\..\cemu\current\graphicPacks\$($_.Name)"
 	}
 } else {
 	write-output "Cannot find cemu folder. If it has already been uninstalled, this is not a problem."
@@ -12,7 +12,7 @@ if ($cemuExists) {
 		Get-ChildItem $dir -Recurse -Directory |
 		ForEach-Object {
 			write-output "Unlinking $($_.Name)"
-			rm -r -Force "$dir\..\..\..\persist\cemu\graphicPacks\$($_.Name)"
+			rm -r -Force -LiteralPath "$dir\..\..\..\persist\cemu\graphicPacks\$($_.Name)"
 		}
 	} else {
 		write-output "Cannot find cemu persistence folder. If it has already been uninstalled, this is not a problem."
