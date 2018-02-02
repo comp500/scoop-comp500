@@ -8,8 +8,8 @@
     ],
     "hash": [
         "cb2902298eaf6955885640b14be5b87ec077869be03f78826c476449a408fe4a",
-        "",
-        ""
+        "097efe3062c2b0ba122b84d414e4fe47e3bbf3f0d29dd23a602f617b07855b7c",
+        "7cbf9ac3eefe3d6c8875292d5d5eb7ac446278e55f09eba0c1c5056cd05ef2b4"
     ],
     "checkver": {
         "url": "https://api.github.com/repos/slashiee/cemu_graphic_packs/releases/latest",
