@@ -1,4 +1,4 @@
-$cemuExists = (New-Object System.IO.FileInfo("$dir\..\..\cemu\current")).Exists
+$cemuExists = (New-Object System.IO.DirectoryInfo("$dir\..\..\cemu\current")).Exists
 if ($cemuExists) {
 	write-output "Linking dbghelp.dll"
 	$dbghelpExists = (New-Object System.IO.FileInfo("$dir\..\..\cemu\current\dbghelp.dll")).Exists

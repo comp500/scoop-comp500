@@ -1,4 +1,4 @@
-$cemuExists = (New-Object System.IO.FileInfo("$dir\..\..\cemu\current")).Exists
+$cemuExists = (New-Object System.IO.DirectoryInfo("$dir\..\..\cemu\current")).Exists
 if ($cemuExists) {
 	Get-ChildItem $dir -Recurse -Directory |
 	ForEach-Object {

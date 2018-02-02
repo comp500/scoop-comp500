@@ -8,8 +8,8 @@
 	],
 	"hash": [
 		"013aac51b84c42ef4a87a6e98b0a4dd62ec977bb9c7dfe4d5ed62c6377d2edf9",
-		"a169aed189f51e7c36d6b7489188dac7b5d1b31391a3cd257e5ae65260955eb7",
-		"6dbbd6317ce7b909a867d2b298d5bf583b6a0dcbd4c08a10fbd1276426a63868"
+		"a61f3b476501c16a705a7e91340ba39166fa792f5073dc8c983a117d940cb0ef",
+		"26436498600a1aed47dc8773bba33fe80f3f137bc344f2701733c3878eb6cb15"
 	],
 	"checkver": "cemuhook_(?<short>[\\d]+_[\\d]+).zip\">.*?Cemu hook (?<version>[\\d.]+)",
 	"autoupdate": {
