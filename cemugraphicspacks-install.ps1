@@ -20,7 +20,7 @@ if ($cemuExists) {
 		[console]::SetCursorPosition($left, $top)
 	}
 
-	write-host "Linking packs... done.       "
+	write-host "Linking packs... done.        "
 } else {
 	throw "Cannot find cemu folder. Has it been installed?"
 }

@@ -18,7 +18,7 @@ if ($cemuExists) {
 		[console]::SetCursorPosition($left, $top)
 	}
 
-	write-host "Unlinking packs... done."
+	write-host "Unlinking packs... done.        "
 } else {
 	write-output "Cannot find cemu folder. If it has already been uninstalled, this is not a problem."
 	$cemuPersistExists = (New-Object System.IO.DirectoryInfo("$dir\..\..\..\persist\cemu")).Exists
@@ -40,7 +40,7 @@ if ($cemuExists) {
 			[console]::SetCursorPosition($left, $top)
 		}
 
-		write-host "Unlinking packs... done.       "
+		write-host "Unlinking packs... done.        "
 	} else {
 		write-output "Cannot find cemu persistence folder. If it has already been uninstalled, this is not a problem."
 	}
