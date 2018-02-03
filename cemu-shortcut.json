@@ -2,15 +2,16 @@
 	"homepage": "https://github.com/comp500/scoop-comp500",
 	"version": "1.0",
 	"url": "https://github.com/comp500/scoop-comp500/raw/master/cemu-shortcut/cemu-shortcut.ps1",
-	"hash": "",
+	"hash": "0b5c97ee2ceed06edef4b8afda0f1591945e0e6ed8b20a1a2568047f934fe8a5",
 	"shortcuts": [
 		[
-			"cemu-shortcut.ps1",
+			"cemu-shortcut.bat",
 			"Cemu Shortcut Tool"
 		]
 	],
 	"bin": "cemu-shortcut.ps1",
 	"depends": [
 		"cemu"
-	]
+	],
+	"pre_install": "\"@echo off`r`npowershell cemu-shortcut.ps1`r`npause\" | out-file -Encoding ASCII $dir\\cemu-shortcut.bat"
 }

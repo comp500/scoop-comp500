@@ -16,12 +16,12 @@ $gameInfo = New-Object System.IO.FileInfo($game)
 
 $name = Read-Host "What would you like to name the shortcut? [$($gameInfo.BaseName)]"
 
-if ($name -eq $null) {
+if (($name -eq $null) -or ($name.Length -lt 1)) {
 	$name = $gameInfo.BaseName
 }
 
 $fullscreen = Read-Host "Would you like the shortcut to launch your game in fullscreen? [Y/n]"
-if ($fullscreen -eq $null) {
+if (($fullscreen -eq $null) -or ($fullscreen.Length -lt 1)) {
 	$fullscreen = $true
 } else {
 	$fullscreen = $fullscreen.Substring(0,1).ToLower() -ne "n"
