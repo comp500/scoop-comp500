@@ -1,8 +1,8 @@
 {
 	"homepage": "https://github.com/comp500/scoop-comp500",
-	"version": "1.0",
+	"version": "1.1",
 	"url": "https://github.com/comp500/scoop-comp500/raw/master/cemu-shortcut/cemu-shortcut.ps1",
-	"hash": "0b5c97ee2ceed06edef4b8afda0f1591945e0e6ed8b20a1a2568047f934fe8a5",
+	"hash": "5091d1d01c79cde8182d214923b75faf0713f9134238caffe11ea84a2fe9e6c4",
 	"shortcuts": [
 		[
 			"cemu-shortcut.bat",
