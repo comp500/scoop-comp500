@@ -9,6 +9,7 @@ The above guides are also useful for other programs in this bucket.
 - `cemu` Cemu Wii U Emulator
 - ~~`cemuhook` Cemuhook by rajkosto~~ Doesn't work in current scoop, see [this PR discussion](https://github.com/lukesampson/scoop/pull/1385)
 - `cemugraphicpacks` Cemu Graphic Packs by slashiee
+- `cemu-shortcut` A tool to make shortcuts with games for Cemu
 - `titledumper` Wii U Titledumper (for ddd)
 - `dolphin-dev` Development version of Dolphin (latest)
 - `dolphin5` Dolphin 5

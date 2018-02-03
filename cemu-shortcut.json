@@ -1,0 +1,16 @@
+{
+	"homepage": "https://github.com/comp500/scoop-comp500",
+	"version": "1.0",
+	"url": "https://github.com/comp500/scoop-comp500/raw/master/cemu-shortcut/cemu-shortcut.ps1",
+	"hash": "",
+	"shortcuts": [
+		[
+			"cemu-shortcut.ps1",
+			"Cemu Shortcut Tool"
+		]
+	],
+	"bin": "cemu-shortcut.ps1",
+	"depends": [
+		"cemu"
+	]
+}
