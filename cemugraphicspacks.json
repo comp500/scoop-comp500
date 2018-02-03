@@ -3,8 +3,8 @@
     "version": "676",
     "url": [
         "https://github.com/slashiee/cemu_graphic_packs/releases/download/appveyor676/graphicPacks_2-676.zip",
-        "https://github.com/comp500/scoop-comp500/raw/master/cemugraphicspacks-uninstall.ps1",
-        "https://github.com/comp500/scoop-comp500/raw/master/cemugraphicspacks-install.ps1"
+        "https://github.com/comp500/scoop-comp500/raw/master/installers/cemugraphicspacks-uninstall.ps1",
+        "https://github.com/comp500/scoop-comp500/raw/master/installers/cemugraphicspacks-install.ps1"
     ],
     "hash": [
         "7d4bcc7940d5aeeadabf925ffb5e8a429d4e484b08e6ce7e846ecfe11ac16bc7",
