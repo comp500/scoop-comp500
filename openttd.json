@@ -17,5 +17,14 @@
 			"find": "checksum-openttd-[\\d.]+-windows-win64\\.zip[\\w\\W]*sha256sum: ([\\w]{64})",
 			"url": "https://www.openttd.org/en/download-stable"
 		}
-	}
+	},
+	"post_install": "New-Item -Force -Path $dir\\openttd.cfg | out-null",
+	"persist": [
+		"content_download",
+		"save",
+		"screenshot",
+		"scripts",
+		"scenario",
+		"newgrf"
+	]
 }
