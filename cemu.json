@@ -1,45 +1,45 @@
 {
-	"homepage": "http://cemu.info/",
-	"version": "1.11.3",
-	"url": "http://cemu.info/releases/cemu_1.11.3.zip",
-	"hash": "36a823e43a21106b5360ffb5eefd9364c67e0569542c9b12f0ba387b23fd98db",
-	"extract_dir": "cemu_1.11.3",
-	"shortcuts": [
-		[
-			"Cemu.exe",
-			"Cemu"
-		]
-	],
-	"bin": [
-		[
-			"cemu.bat",
-			"cemu"
-		],
-		[
-			"Cemu.exe",
-			"cemu-nopath"
-		]
-	],
-	"checkver": "http://cemu.info/releases/cemu_(.+).zip",
-	"autoupdate": {
-		"url": "http://cemu.info/releases/cemu_$version.zip",
-		"extract_dir": "cemu_$version"
-	},
-	"suggest": {
-		"Microsoft Visual C++ 2015 X64 Redistributable": [
-			"extras/vcredist2015"
-		]
-	},
-	"persist": [
-		"keys.txt",
-		"settings.bin",
-		"controllerProfiles",
-		"gameProfiles",
-		"graphicPacks",
-		"shaderCache/transferable",
-		"mlc01",
-		"hfiomlc01",
-		"memorySearcher"
-	],
-	"pre_install": "Add-Content \"$dir\\keys.txt\" $null; Add-Content \"$dir\\settings.bin\" $null; \"@echo off`r`npushd $dir`r`nCemu.exe %*`r`npopd\" | out-file -Encoding ASCII $dir\\cemu.bat"
+    "homepage": "http://cemu.info/",
+    "version": "1.11.4",
+    "url": "http://cemu.info/releases/cemu_1.11.4.zip",
+    "hash": "383691afdca2666741b62bcfe9fda27f1b28266c4031782f8b61f145c5b81e12",
+    "extract_dir": "cemu_1.11.4",
+    "shortcuts": [
+        [
+            "Cemu.exe",
+            "Cemu"
+        ]
+    ],
+    "bin": [
+        [
+            "cemu.bat",
+            "cemu"
+        ],
+        [
+            "Cemu.exe",
+            "cemu-nopath"
+        ]
+    ],
+    "checkver": "http://cemu.info/releases/cemu_(.+).zip",
+    "autoupdate": {
+        "url": "http://cemu.info/releases/cemu_$version.zip",
+        "extract_dir": "cemu_$version"
+    },
+    "suggest": {
+        "Microsoft Visual C++ 2015 X64 Redistributable": [
+            "extras/vcredist2015"
+        ]
+    },
+    "persist": [
+        "keys.txt",
+        "settings.bin",
+        "controllerProfiles",
+        "gameProfiles",
+        "graphicPacks",
+        "shaderCache/transferable",
+        "mlc01",
+        "hfiomlc01",
+        "memorySearcher"
+    ],
+    "pre_install": "Add-Content \"$dir\\keys.txt\" $null; Add-Content \"$dir\\settings.bin\" $null; \"@echo off`r`npushd $dir`r`nCemu.exe %*`r`npopd\" | out-file -Encoding ASCII $dir\\cemu.bat"
 }
