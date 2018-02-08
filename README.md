@@ -18,10 +18,10 @@ The above guides are also useful for other programs in this bucket.
 - `win32diskimager` [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
 - `multimc` [MultiMC](https://multimc.org/) Minecraft launcher
 - `syncplay` [Syncplay](http://syncplay.pl/) media player synchronizer
+- `syncplaybeta` [Syncplay](http://syncplay.pl/) media player synchronizer (beta)
 
 ## WIP packages
 - `rdpwrap` *Requires admin to install/uninstall, script needed?*
-- `syncplaybeta`
 - `crystaldiskmark`
 - `crystaldiskinfo`
 
@@ -29,3 +29,5 @@ The above guides are also useful for other programs in this bucket.
 - MultiMC may not have all folders persisted properly, must test further
 - Syncplay could use an install/uninstall script for lua plugin
 - Move installers/uninstallers into single files, to increase download speed
+- Add licenses
+- Fix all homepage urls, use seperate ones for checkver
