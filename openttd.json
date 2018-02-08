@@ -1,5 +1,5 @@
 {
-	"homepage": "https://www.openttd.org/en/download-stable",
+	"homepage": "https://www.openttd.org/en/",
 	"version": "1.7.2",
 	"url": "https://binaries.openttd.org/releases/1.7.2/openttd-1.7.2-windows-win64.zip",
 	"hash": "9ad379da6ae539d19b377084cf6494909cc09f9309653d8d183fdc2f9bb59f67",
@@ -9,7 +9,10 @@
 			"OpenTTD"
 		]
 	],
-	"checkver": "Latest release in stable is ([\\d.]+)",
+	"checkver": {
+		"url": "https://www.openttd.org/en/download-stable",
+		"re": "Latest release in stable is ([\\d.]+)"
+	},
 	"autoupdate": {
 		"url": "https://binaries.openttd.org/releases/$version/openttd-$version-windows-win64.zip",
 		"hash": {

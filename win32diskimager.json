@@ -1,5 +1,5 @@
 {
-    "homepage": "https://sourceforge.net/projects/win32diskimager/files/",
+    "homepage": "https://sourceforge.net/projects/win32diskimager/",
     "version": "1.0.0",
 	"url": "https://downloads.sourceforge.net/project/win32diskimager/Archive/Win32DiskImager-1.0.0-binary.zip",
 	"hash": "d3cae3fff1aa5e74e9f4cd3ca48a6bd9586aa573243f1603fffbc03470033e14",
@@ -10,6 +10,7 @@
         ]
     ],
     "checkver": {
+        "url": "https://sourceforge.net/projects/win32diskimager/files/",
         "re": "win32diskimager-([\\d.]+)-install.exe"
     },
     "autoupdate": {
