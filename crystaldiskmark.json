@@ -1,0 +1,28 @@
+{
+    "homepage": "http://crystalmark.info/en/software/crystaldiskmark/",
+    "version": "6.0.0",
+    "url": "https://osdn.net/frs/redir.php?m=osdn&f=crystaldiskmark%2F68624%2FCrystalDiskMark6_0_0.zip#/dl.zip",
+    "hash": "eae73e7184a784eb5f9d6b8c588eb0ae1c0fda037cd5c386758e83ee0f2854ee",
+    "architecture": {
+		"32bit": {
+			"shortcuts": [
+				[
+					"DiskMark32.exe",
+					"CrystalDiskMark"
+				]
+			]
+		},
+		"64bit": {
+			"shortcuts": [
+				[
+					"DiskMark64.exe",
+					"CrystalDiskMark"
+				]
+			]
+		}
+	},
+    "checkver": {
+        "url": "http://crystalmark.info/en/download/",
+        "re": "CrystalDiskMark ([\\d.]+)"
+    }
+}

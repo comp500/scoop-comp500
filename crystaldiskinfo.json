@@ -1,0 +1,28 @@
+{
+    "homepage": "http://crystalmark.info/en/software/crystaldiskinfo/",
+    "version": "7.5.1",
+    "url": "https://osdn.net/frs/redir.php?m=osdn&f=crystaldiskinfo%2F68590%2FCrystalDiskInfo7_5_1.zip#/dl.zip",
+	"hash": "a91a03ac849d42aab49cc4089236a3e171fc53728de88719fd1f1794dbae06d5",
+	"architecture": {
+		"32bit": {
+			"shortcuts": [
+				[
+					"DiskInfo32.exe",
+					"CrystalDiskInfo"
+				]
+			]
+		},
+		"64bit": {
+			"shortcuts": [
+				[
+					"DiskInfo64.exe",
+					"CrystalDiskInfo"
+				]
+			]
+		}
+	},
+    "checkver": {
+        "url": "http://crystalmark.info/en/download/",
+        "re": "CrystalDiskInfo ([\\d.]+)"
+    }
+}

@@ -19,11 +19,11 @@ The above guides are also useful for other programs in this bucket.
 - `multimc` [MultiMC](https://multimc.org/) Minecraft launcher
 - `syncplay` [Syncplay](http://syncplay.pl/) media player synchronizer
 - `syncplaybeta` [Syncplay](http://syncplay.pl/) media player synchronizer (beta)
+- `crystaldiskmark` [CrystalDiskMark](http://crystalmark.info/en/software/crystaldiskmark/) disk benchmarker
+- `crystaldiskinfo` [CrystalDiskInfo](http://crystalmark.info/en/software/crystaldiskinfo/) disk health reader
 
 ## WIP packages
 - `rdpwrap` *Requires admin to install/uninstall, script needed?*
-- `crystaldiskmark`
-- `crystaldiskinfo`
 
 ## Notes / To do
 - MultiMC may not have all folders persisted properly, must test further
@@ -31,3 +31,4 @@ The above guides are also useful for other programs in this bucket.
 - Move installers/uninstallers into single files, to increase download speed
 - Add licenses
 - Fix all homepage urls, use seperate ones for checkver
+- CrystalDiskMark/CrystalDiskInfo autoupdate
