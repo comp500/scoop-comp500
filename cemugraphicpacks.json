@@ -2,14 +2,10 @@
     "homepage": "https://slashiee.github.io/cemu_graphic_packs/",
     "version": "699",
     "url": [
-        "https://github.com/slashiee/cemu_graphic_packs/releases/download/appveyor699/graphicPacks_2-699.zip",
-        "https://github.com/comp500/scoop-comp500/raw/master/installers/cemugraphicpacks-uninstall.ps1",
-        "https://github.com/comp500/scoop-comp500/raw/master/installers/cemugraphicpacks-install.ps1"
+        "https://github.com/slashiee/cemu_graphic_packs/releases/download/appveyor699/graphicPacks_2-699.zip"
     ],
     "hash": [
-        "f5bb70c4982f835b9c51c72191a90a010259d567d6e2e26362510b2ac1b51889",
-        "097efe3062c2b0ba122b84d414e4fe47e3bbf3f0d29dd23a602f617b07855b7c",
-        "7cbf9ac3eefe3d6c8875292d5d5eb7ac446278e55f09eba0c1c5056cd05ef2b4"
+        "f5bb70c4982f835b9c51c72191a90a010259d567d6e2e26362510b2ac1b51889"
     ],
     "checkver": {
         "url": "https://api.github.com/repos/slashiee/cemu_graphic_packs/releases/latest",
@@ -23,9 +19,9 @@
         "cemu"
     ],
     "installer": {
-        "keep": true
+        "bucket_file": "installers/cemugraphicpacks-install.ps1"
     },
     "uninstaller": {
-        "file": "cemugraphicpacks-uninstall.ps1"
+        "bucket_file": "installers/cemugraphicpacks-uninstall.ps1"
     }
 }
