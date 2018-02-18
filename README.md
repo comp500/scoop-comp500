@@ -21,6 +21,7 @@ The above guides are also useful for other programs in this bucket.
 - `syncplaybeta` [Syncplay](http://syncplay.pl/) media player synchronizer (beta)
 - `crystaldiskmark` [CrystalDiskMark](http://crystalmark.info/en/software/crystaldiskmark/) disk benchmarker
 - `crystaldiskinfo` [CrystalDiskInfo](http://crystalmark.info/en/software/crystaldiskinfo/) disk health reader
+- `iperf3` [iPerf](https://iperf.fr/) speed testing tool
 
 ## WIP packages
 - `rdpwrap` *Requires admin to install/uninstall, script needed?*
