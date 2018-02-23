@@ -22,6 +22,7 @@ The above guides are also useful for other programs in this bucket.
 - `crystaldiskmark` [CrystalDiskMark](http://crystalmark.info/en/software/crystaldiskmark/) disk benchmarker
 - `crystaldiskinfo` [CrystalDiskInfo](http://crystalmark.info/en/software/crystaldiskinfo/) disk health reader
 - `iperf3` [iPerf](https://iperf.fr/) speed testing tool
+- `smartty` [SmarTTY](http://smartty.sysprogs.com/) SSH client
 
 ## WIP packages
 - `rdpwrap` *Requires admin to install/uninstall, script needed?*
