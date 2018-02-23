@@ -32,4 +32,3 @@ The above guides are also useful for other programs in this bucket.
 - Syncplay could use an install/uninstall script for lua plugin
 - Move installers/uninstallers into single files, to increase download speed
 - Add licenses
-- CrystalDiskMark/CrystalDiskInfo autoupdate
