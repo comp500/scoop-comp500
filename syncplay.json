@@ -1,9 +1,9 @@
 {
     "homepage": "http://syncplay.pl/",
-    "version": "1.5.1",
-    "url": "http://syncplay.pl/Syncplay-1.5.1-Portable.zip",
-    "hash": "75623d6896d259da629ce7c1544df021c1946b814469e1b882f79b11348ff69e",
-    "extract_dir": "syncplay_v1.5.1",
+    "version": "1.5.2",
+    "url": "http://syncplay.pl/syncplay_v1.5.2_Portable.zip",
+    "hash": "a8b02b7ba3d7360471886d554557c4dc9294b7730b42fad4f551c6328d6be708",
+    "extract_dir": "syncplay_v1.5.2",
     "shortcuts": [
         [
             "Syncplay.exe",
@@ -19,7 +19,7 @@
         "re": "/Syncplay/syncplay/releases/tag/v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "http://syncplay.pl/Syncplay-$version-Portable.zip",
+        "url": "http://syncplay.pl/syncplay_v$version_Portable.zip",
         "extract_dir": "syncplay_v$version",
         "hash": {
             "mode": "extract",
