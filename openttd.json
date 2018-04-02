@@ -2,7 +2,7 @@
     "homepage": "https://www.openttd.org/en/",
     "version": "1.8.0",
     "url": "https://binaries.openttd.org/releases/1.8.0/openttd-1.8.0-windows-win64.zip",
-    "hash": "a68bf02307cb9b30b178437bedecba061b99948bb6207c44f7ac947263f0841e",
+    "hash": "f3e333d7597309b432d7f6529d746923ffd4339dffca43bb024d37db7beddc91",
     "shortcuts": [
         [
             "openttd.exe",
@@ -17,7 +17,7 @@
         "url": "https://binaries.openttd.org/releases/$version/openttd-$version-windows-win64.zip",
         "hash": {
             "mode": "extract",
-            "find": "checksum-openttd-[\\d.]+-windows-win64\\.zip[\\w\\W]*sha256sum: ([\\w]{64})",
+            "find": "checksum-openttd-[\\d.]+-windows-win64\\.zip[\\w\\W]*?sha256sum: ([\\w]{64})",
             "url": "https://www.openttd.org/en/download-stable"
         }
     },
