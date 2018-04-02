@@ -1,33 +1,33 @@
 {
-	"homepage": "https://www.openttd.org/en/",
-	"version": "1.7.2",
-	"url": "https://binaries.openttd.org/releases/1.7.2/openttd-1.7.2-windows-win64.zip",
-	"hash": "9ad379da6ae539d19b377084cf6494909cc09f9309653d8d183fdc2f9bb59f67",
-	"shortcuts": [
-		[
-			"openttd.exe",
-			"OpenTTD"
-		]
-	],
-	"checkver": {
-		"url": "https://www.openttd.org/en/download-stable",
-		"re": "Latest release in stable is ([\\d.]+)"
-	},
-	"autoupdate": {
-		"url": "https://binaries.openttd.org/releases/$version/openttd-$version-windows-win64.zip",
-		"hash": {
-			"mode": "extract",
-			"find": "checksum-openttd-[\\d.]+-windows-win64\\.zip[\\w\\W]*sha256sum: ([\\w]{64})",
-			"url": "https://www.openttd.org/en/download-stable"
-		}
-	},
-	"post_install": "New-Item -Force -Path $dir\\openttd.cfg | out-null",
-	"persist": [
-		"content_download",
-		"save",
-		"screenshot",
-		"scripts",
-		"scenario",
-		"newgrf"
-	]
+    "homepage": "https://www.openttd.org/en/",
+    "version": "1.8.0",
+    "url": "https://binaries.openttd.org/releases/1.8.0/openttd-1.8.0-windows-win64.zip",
+    "hash": "a68bf02307cb9b30b178437bedecba061b99948bb6207c44f7ac947263f0841e",
+    "shortcuts": [
+        [
+            "openttd.exe",
+            "OpenTTD"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.openttd.org/en/download-stable",
+        "re": "Latest release in stable is ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://binaries.openttd.org/releases/$version/openttd-$version-windows-win64.zip",
+        "hash": {
+            "mode": "extract",
+            "find": "checksum-openttd-[\\d.]+-windows-win64\\.zip[\\w\\W]*sha256sum: ([\\w]{64})",
+            "url": "https://www.openttd.org/en/download-stable"
+        }
+    },
+    "post_install": "New-Item -Force -Path $dir\\openttd.cfg | out-null",
+    "persist": [
+        "content_download",
+        "save",
+        "screenshot",
+        "scripts",
+        "scenario",
+        "newgrf"
+    ]
 }

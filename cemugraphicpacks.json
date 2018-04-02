@@ -1,13 +1,13 @@
 {
     "homepage": "https://slashiee.github.io/cemu_graphic_packs/",
-    "version": "815",
+    "version": "820",
     "url": [
-        "https://github.com/slashiee/cemu_graphic_packs/releases/download/appveyor815/graphicPacks_2-815.zip",
+        "https://github.com/slashiee/cemu_graphic_packs/releases/download/appveyor820/graphicPacks_2-820.zip",
         "https://github.com/comp500/scoop-comp500/raw/master/installers/cemugraphicpacks-uninstall.ps1",
         "https://github.com/comp500/scoop-comp500/raw/master/installers/cemugraphicpacks-install.ps1"
     ],
     "hash": [
-        "27f98aad1cfca0238cb8d06d99b5ebbd343c076a8fead0932b33d71243bce38e",
+        "2472c74d19bf4a6f59e773d1f47c7feb4b666470392d0086df922045ad6b6c68",
         "097efe3062c2b0ba122b84d414e4fe47e3bbf3f0d29dd23a602f617b07855b7c",
         "7cbf9ac3eefe3d6c8875292d5d5eb7ac446278e55f09eba0c1c5056cd05ef2b4"
     ],
