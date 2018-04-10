@@ -1,9 +1,9 @@
 {
     "homepage": "http://syncplay.pl/",
-    "version": "1.5.2",
-    "url": "http://syncplay.pl/syncplay_v1.5.2_Portable.zip",
-    "hash": "a8b02b7ba3d7360471886d554557c4dc9294b7730b42fad4f551c6328d6be708",
-    "extract_dir": "syncplay_v1.5.2",
+    "version": "1.5.3",
+    "url": "http://syncplay.pl/syncplay_v1.5.3_Portable.zip",
+    "hash": "11c9dde9c6b787a32510a70b934ab060f144d08b8ab27c97ed95cf63bd83db21",
+    "extract_dir": "syncplay_v1.5.3",
     "shortcuts": [
         [
             "Syncplay.exe",
@@ -26,6 +26,6 @@
             "url": "https://github.com/Syncplay/syncplay/releases/latest",
             "find": "Digests for Syncplay-[\\d.]+-Portable\\.zip[\\s\\S]*?SHA256:\\s+([a-fA-F0-9]{64})"
         }
-	},
-	"notes": "See http://syncplay.pl/LUA to install the syncplay plugin for VLC"
+    },
+    "notes": "See http://syncplay.pl/LUA to install the syncplay plugin for VLC"
 }
