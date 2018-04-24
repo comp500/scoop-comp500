@@ -1,0 +1,24 @@
+{
+    "homepage": "http://powdertoy.co.uk/",
+    "version": "93.3",
+    "hash": "59053f5f4594fa97de9234e3d54ed8216d7a8ccf4e56c903e100788fd380c955",
+    "url": "http://powdertoy.co.uk/Download/Builds/Build-340/powder-win32.zip",
+    "shortcuts": [
+        [
+            "Powder.exe",
+            "The Powder Toy"
+        ]
+    ],
+    "checkver": {
+        "url": "http://powdertoy.co.uk/Download/Browse.html",
+        "re": "Release[\\s\\w]*\">(?<version>[0-9.]+)[\\s\\S]+?Build[\\s\\w]*\">(?<build>[0-9]+)"
+    },
+    "autoupdate": {
+        "url": "http://powdertoy.co.uk/Download/Builds/Build-$matchBuild/powder-win32.zip"
+    },
+    "persist": [
+        "Saves",
+        "stamps",
+        "powder.pref"
+    ]
+}
