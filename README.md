@@ -7,7 +7,7 @@ The above guides are also useful for other programs in this bucket.
 
 ## Packages included
 - `cemu` [Cemu](http://cemu.info/) Wii U Emulator
-- ~~`cemuhook` Cemuhook by rajkosto~~ Doesn't work in current scoop, see [this PR discussion](https://github.com/lukesampson/scoop/pull/1385)
+- `cemuhook` [Cemuhook](https://cemuhook.sshnuke.net/) by rajkosto
 - `cemugraphicpacks` [Cemu Graphic Packs](https://github.com/slashiee/cemu_graphic_packs) by slashiee
 - `cemu-shortcut` A tool to make shortcuts with games for Cemu
 - `titledumper` Wii U [Titledumper](https://gbatemp.net/threads/ddd-wiiu-title-dumper.418492/) (for ddd)
@@ -23,6 +23,9 @@ The above guides are also useful for other programs in this bucket.
 - `crystaldiskinfo` [CrystalDiskInfo](http://crystalmark.info/en/software/crystaldiskinfo/) disk health reader
 - `iperf3` [iPerf](https://iperf.fr/) speed testing tool
 - `smartty` [SmarTTY](http://smartty.sysprogs.com/) SSH client
+- `powdertoy` [The Powder Toy](http://powdertoy.co.uk/) game
+- `schismtracker` [Schism Tracker](http://schismtracker.org/) music tracker
+- `famitracker` [FamiTracker](http://famitracker.com/index.php) music tracker 
 
 ## WIP packages
 - `rdpwrap` *Requires admin to install/uninstall, script needed?*
