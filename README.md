@@ -22,7 +22,7 @@ The above guides are also useful for other programs in this bucket.
 - `crystaldiskmark` [CrystalDiskMark](http://crystalmark.info/en/software/crystaldiskmark/) disk benchmarker
 - `crystaldiskinfo` [CrystalDiskInfo](http://crystalmark.info/en/software/crystaldiskinfo/) disk health reader
 - `iperf3` [iPerf](https://iperf.fr/) speed testing tool
-- `smartty` [SmarTTY](http://smartty.sysprogs.com/) SSH client
+- ~~`smartty` [SmarTTY](http://smartty.sysprogs.com/) SSH client~~ Now in extras bucket
 - `powdertoy` [The Powder Toy](http://powdertoy.co.uk/) game
 - `schismtracker` [Schism Tracker](http://schismtracker.org/) music tracker
 - `famitracker` [FamiTracker](http://famitracker.com/index.php) music tracker 
