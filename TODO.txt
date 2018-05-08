@@ -1,0 +1,4 @@
+TODO
+add powdertoy jacob1 mod
+remove reg keys on uninstall
+fix FirstRun stuff?
