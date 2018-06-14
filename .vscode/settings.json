@@ -1,0 +1,10 @@
+{
+	"json.schemas": [
+		{
+			"fileMatch": [
+				"/*.json"
+			],
+			"url": "https://github.com/lukesampson/scoop/raw/master/schema.json"
+		}
+	]
+}
