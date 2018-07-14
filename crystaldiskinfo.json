@@ -1,8 +1,8 @@
 {
     "homepage": "http://crystalmark.info/en/software/crystaldiskinfo/",
-    "version": "7.6.0",
-	"url": "https://osdn.net/frs/redir.php?m=osdn&f=crystaldiskinfo%2F69241%2FCrystalDiskInfo7_6_0.zip#/dl.zip",
-	"hash": "2868c95723da0362e01f9575831e960e5205dd04382f7cc55d778b99de896896",
+    "version": "7.6.1",
+	"url": "https://osdn.net/frs/redir.php?f=crystaldiskinfo%2F69241%2FCrystalDiskInfo7_6_1.zip#/CrystalDiskInfo7_6_1.zip",
+	"hash": "1c32ec792045e3a281292d753d8c9ab9f9df5758251d07234a6ef80d7c032cc5",
 	"architecture": {
 		"32bit": {
 			"shortcuts": [
