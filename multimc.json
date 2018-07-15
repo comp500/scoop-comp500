@@ -24,8 +24,7 @@
 		"icons",
 		"libraries",
 		"meta",
-		"themes",
-		"metacache"
+		"themes"
 	],
 	"pre_install": "Add-Content \"$dir\\accounts.json\" $null; Add-Content \"$dir\\multimc.cfg\" $null",
 	"notes": "Do not use the built-in updater to update MultiMC."
