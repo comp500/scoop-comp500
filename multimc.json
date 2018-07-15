@@ -1,8 +1,8 @@
 {
     "homepage": "https://multimc.org/",
-    "version": "0.6.1",
+    "version": "0.6.2",
 	"url": "https://files.multimc.org/downloads/mmc-stable-win32.zip",
-	"hash": "30b0e7a4a39a9e4dfb9b4044b1b9099197dcadaaeb673dbd8070c95d7688f262",
+	"hash": "6f0c81841da405849233bfa9953adb18fc96d02c61a609d3b85ff5de615d449b",
 	"extract_dir": "MultiMC",
     "shortcuts": [
         [
@@ -17,7 +17,15 @@
 	"persist": [
 		"accounts.json",
 		"multimc.cfg",
-		"instances"
+		"instances",
+		"accounts",
+		"assets",
+		"cache",
+		"icons",
+		"libraries",
+		"meta",
+		"themes",
+		"metacache"
 	],
 	"pre_install": "Add-Content \"$dir\\accounts.json\" $null; Add-Content \"$dir\\multimc.cfg\" $null",
 	"notes": "Do not use the built-in updater to update MultiMC."
