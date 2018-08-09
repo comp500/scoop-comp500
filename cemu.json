@@ -1,9 +1,9 @@
 {
     "homepage": "http://cemu.info/",
-    "version": "1.12.2",
-    "url": "http://cemu.info/releases/cemu_1.12.2.zip",
-    "hash": "881720507d35314a66e14579ab734b1c9723e251ce1878ce0a50dd7222e7610e",
-    "extract_dir": "cemu_1.12.2",
+    "version": "1.13.0",
+    "url": "http://cemu.info/releases/cemu_1.13.0.zip",
+    "hash": "9dd1c9cd955426fe7c5027b5be161afa887672bb41ada80fd78809847576ac15",
+    "extract_dir": "cemu_1.13.0",
     "shortcuts": [
         [
             "Cemu.exe",
