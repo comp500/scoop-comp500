@@ -23,6 +23,7 @@
         "cemu"
     ],
     "installer": {
+        "file": "cemugraphicpacks-install.ps1",
         "keep": true
     },
     "uninstaller": {
