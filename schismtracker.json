@@ -1,14 +1,14 @@
 {
     "homepage": "http://schismtracker.org/",
-    "version": "20180513",
+    "version": "20180810",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/schismtracker/schismtracker/releases/download/20180513/schismtracker-20180513-win32.zip",
-            "hash": "faed268cdad0f8b5db2de922484a37945fbc5df554dd943b34daee228d6b031c"
+            "url": "https://github.com/schismtracker/schismtracker/releases/download/20180810/schismtracker-20180810-win32.zip",
+            "hash": "439b3acea8019fea8d23ee7f1ba1d33992fc75a5c359136090727d275d85e553"
         },
         "64bit": {
-            "url": "https://github.com/schismtracker/schismtracker/releases/download/20180513/schismtracker-20180513-win64.zip",
-            "hash": "ba90986580183a451997ed752375996d78b5c776a8828699a8b0d4abf50582c3"
+            "url": "https://github.com/schismtracker/schismtracker/releases/download/20180810/schismtracker-20180810-win64.zip",
+            "hash": "857d363c83f8d6b380e0a03684b9f144b454ab943633c790f92e308005944cee"
         }
     },
     "shortcuts": [
