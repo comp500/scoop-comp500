@@ -1,13 +1,13 @@
 {
     "homepage": "https://slashiee.github.io/cemu_graphic_packs/",
-    "version": "83",
+    "version": "85",
     "url": [
-        "https://github.com/slashiee/cemu_graphic_packs/releases/download/Travis83/graphicPacksCommon_83.zip",
+        "https://github.com/slashiee/cemu_graphic_packs/releases/download/Travis85/graphicPacksCommon_85.zip",
         "https://github.com/comp500/scoop-comp500/raw/master/installers/cemugraphicpacks-uninstall.ps1",
         "https://github.com/comp500/scoop-comp500/raw/master/installers/cemugraphicpacks-install.ps1"
     ],
     "hash": [
-        "11f1de5c12d08028a62d790290c56ff05a404efcf61fc5c715e630dbeb8269ab",
+        "d1274159717daaaa68f75b831b81dac3da42169720eb92f396b9a2b4fb909f70",
         "097efe3062c2b0ba122b84d414e4fe47e3bbf3f0d29dd23a602f617b07855b7c",
         "7cbf9ac3eefe3d6c8875292d5d5eb7ac446278e55f09eba0c1c5056cd05ef2b4"
     ],
