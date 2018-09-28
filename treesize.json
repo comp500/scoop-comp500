@@ -1,16 +1,20 @@
 {
-	"homepage": "https://www.jam-software.com/treesize_free/",
-	"version": "4.22",
-	"url": "https://www.jam-software.com/treesize_free/TreeSizeFree-Portable.zip",
-	"hash": "62fefb258ab094bc4e4a178085fc21b7ccf4c27d2c36a0f65eb47725716dd27c",
-	"shortcuts": [
-		[
-			"TreeSizeFree.exe",
-			"TreeSize Free"
-		]
-	],
-	"checkver": {
-		"url": "https://www.jam-software.de/customers/downloadTrial.php?article_no=80&language=EN",
-		"re": "TreeSize Free V([\\d.]+)"
-	}
+    "homepage": "https://www.jam-software.com/treesize_free/",
+    "version": "4.22.2600",
+    "url": "https://www.jam-software.com/treesize_free/TreeSizeFree-Portable.zip",
+    "hash": "09adb51c5bbfe3091ac4185bda280b543803128c9de611d287610da0914e8f84",
+    "shortcuts": [
+        [
+            "TreeSizeFree.exe",
+            "TreeSize Free"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.jam-software.de/functions/getCurrentVersion.php?article=80&full=1&version=1",
+        "re": "<version>([\\d\\.]+)</version><minOS>(\\d+)",
+        "replace": "${1}.${2}"
+    },
+    "autoupdate": {
+        "url": "https://www.jam-software.com/treesize_free/TreeSizeFree-Portable.zip"
+    }
 }
