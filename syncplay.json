@@ -1,9 +1,9 @@
 {
-    "homepage": "http://syncplay.pl/",
-    "version": "1.5.5",
-    "url": "http://syncplay.pl/Syncplay_v1.5.5_Portable.zip",
-    "hash": "b0a8a6fb8ba8428af54151a9d75784d8b3ad52ad4438d18828bf1500ad347b00",
-    "extract_dir": "syncplay_v1.5.5",
+    "homepage": "https://syncplay.pl/",
+    "version": "1.6.0",
+    "url": "https://github.com/Syncplay/syncplay/releases/download/v1.6.0/Syncplay_1.6.0_Portable.zip",
+    "hash": "5f09d73c6b1f34ac5e3da872d13ecbdec7b4b5fadd740b6c1880f01aaca13f11",
+    "extract_dir": "syncplay_v1.6.0",
     "shortcuts": [
         [
             "Syncplay.exe",
@@ -19,12 +19,12 @@
         "re": "/Syncplay/syncplay/releases/tag/v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "http://syncplay.pl/Syncplay_v$version_Portable.zip",
+        "url": "https://github.com/Syncplay/syncplay/releases/download/v$version/Syncplay_$version_Portable.zip",
         "extract_dir": "syncplay_v$version",
         "hash": {
             "mode": "extract",
-            "url": "https://github.com/Syncplay/syncplay/releases/latest",
-            "find": "Digests for Syncplay-[\\d.]+-Portable\\.zip[\\s\\S]*?SHA256:\\s+([a-fA-F0-9]{64})"
+            "url": "https://syncplay.pl/news/",
+            "find": "Hashes for $basename[\\s\\S]*?SHA256:\\s+([a-fA-F0-9]{64})"
         }
     },
     "notes": "See http://syncplay.pl/LUA to install the syncplay plugin for VLC"
