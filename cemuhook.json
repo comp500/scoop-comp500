@@ -1,13 +1,13 @@
 {
     "homepage": "https://sshnuke.net/cemuhook/",
-    "version": "0.5.6.7",
+    "version": "0.5.7.0",
     "url": [
-        "https://files.sshnuke.net/cemuhook_1132_0567.zip",
+        "https://files.sshnuke.net/cemuhook_1140_0570.zip",
         "https://github.com/comp500/scoop-comp500/raw/master/installers/cemuhook-uninstall.ps1",
         "https://github.com/comp500/scoop-comp500/raw/master/installers/cemuhook-install.ps1"
     ],
     "hash": [
-        "d852cc1e570ba8bfdec27bd0450b2643492da71394cc1125f043190d4c413c37",
+        "c58a38c60041146669c1af6614e6a48ab580581207239b7a88d71dc00ea3ca58",
         "fb1ea5f8a56f60d07230cc3d7d727bfc0a2f92b9468805ad8c84516bfe031831",
         "aafc913ad9628cbb79d16f89dc859c0de8012208b54ce63c25d3f52e3e632704"
     ],

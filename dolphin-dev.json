@@ -1,8 +1,8 @@
 {
     "homepage": "https://dolphin-emu.org/",
-    "version": "5.0-8890",
-    "url": "https://dl.dolphin-emu.org/builds/dolphin-master-5.0-8890-x64.7z",
-    "hash": "cf5aed10a820304dcbe71b2b58a9394cb59a54695d6235900836111157b0327e",
+    "version": "5.0-8983",
+    "url": "https://dl.dolphin-emu.org/builds/dolphin-master-5.0-8983-x64.7z",
+    "hash": "3e34013885fa4aa2e729b02b4e2d2acd9e7124b83f0591ae4f80b00f4e0ca4e3",
     "extract_dir": "Dolphin-x64",
     "shortcuts": [
         [
