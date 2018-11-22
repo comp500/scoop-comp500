@@ -1,13 +1,13 @@
 {
     "homepage": "https://slashiee.github.io/cemu_graphic_packs/",
-    "version": "208",
+    "version": "216",
     "url": [
-        "https://github.com/slashiee/cemu_graphic_packs/releases/download/Travis208/graphicPacks208.zip",
+        "https://github.com/slashiee/cemu_graphic_packs/releases/download/Travis216/graphicPacks216.zip",
         "https://github.com/comp500/scoop-comp500/raw/master/installers/cemugraphicpacks-uninstall.ps1",
         "https://github.com/comp500/scoop-comp500/raw/master/installers/cemugraphicpacks-install.ps1"
     ],
     "hash": [
-        "f6bebba219f2c3020f3b4303e2bc988b6e48ce0db944a4139ae550d6e20fbb0a",
+        "777ba6ef6e614ca59c8368bf670db99ccbdc2bb196c928011cee1934f35d77ac",
         "097efe3062c2b0ba122b84d414e4fe47e3bbf3f0d29dd23a602f617b07855b7c",
         "7cbf9ac3eefe3d6c8875292d5d5eb7ac446278e55f09eba0c1c5056cd05ef2b4"
     ],
@@ -19,9 +19,7 @@
     "autoupdate": {
         "url": "https://github.com/slashiee/cemu_graphic_packs/releases/download/Travis$version/graphicPacks$version.zip"
     },
-    "depends": [
-        "cemu"
-    ],
+    "depends": "cemu",
     "installer": {
         "file": "cemugraphicpacks-install.ps1",
         "keep": true

@@ -1,8 +1,8 @@
 {
     "homepage": "https://dolphin-emu.org/",
-    "version": "5.0-9140",
-    "url": "https://dl.dolphin-emu.org/builds/dolphin-master-5.0-9140-x64.7z",
-    "hash": "e9e029cd98b73120891620f8d370d369298898232661bc241d622a8a03841ee9",
+    "version": "5.0-9147",
+    "url": "https://dl.dolphin-emu.org/builds/dolphin-master-5.0-9147-x64.7z",
+    "hash": "0c46379b7a46b1be7d6d8a169361f244fd69b49f0e3d452d59dcf6a6342528fa",
     "extract_dir": "Dolphin-x64",
     "shortcuts": [
         [
@@ -18,8 +18,6 @@
         "url": "https://dl.dolphin-emu.org/builds/dolphin-master-$version-x64.7z"
     },
     "suggest": {
-        "Microsoft Visual C++ 2017 X64 Redistributable": [
-            "extras/vcredist2017"
-        ]
+        "Microsoft Visual C++ 2017 X64 Redistributable": "extras/vcredist2017"
     }
 }
