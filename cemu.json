@@ -1,9 +1,9 @@
 {
     "homepage": "http://cemu.info/",
-    "version": "1.14.0",
-    "url": "http://cemu.info/releases/cemu_1.14.0.zip",
-    "hash": "cdb6b9ffbb2e095453ae04f18bc9d0e325a4be9b11306754738e791724977181",
-    "extract_dir": "cemu_1.14.0",
+    "version": "1.15.0",
+    "url": "http://cemu.info/releases/cemu_1.15.0.zip",
+    "hash": "838134255334da9f2cd16ba3ef4ce39e55a80de805643e6459b62c778d94f387",
+    "extract_dir": "cemu_1.15.0",
     "shortcuts": [
         [
             "Cemu.exe",
@@ -26,9 +26,7 @@
         "extract_dir": "cemu_$version"
     },
     "suggest": {
-        "Microsoft Visual C++ 2015 X64 Redistributable": [
-            "extras/vcredist2015"
-        ]
+        "Microsoft Visual C++ 2015 X64 Redistributable": "extras/vcredist2015"
     },
     "persist": [
         "keys.txt",
