@@ -1,13 +1,13 @@
 {
     "homepage": "https://slashiee.github.io/cemu_graphic_packs/",
-    "version": "279",
+    "version": "281",
     "url": [
-        "https://github.com/slashiee/cemu_graphic_packs/releases/download/Travis279/graphicPacks279.zip",
+        "https://github.com/slashiee/cemu_graphic_packs/releases/download/Travis281/graphicPacks281.zip",
         "https://github.com/comp500/scoop-comp500/raw/master/installers/cemugraphicpacks-uninstall.ps1",
         "https://github.com/comp500/scoop-comp500/raw/master/installers/cemugraphicpacks-install.ps1"
     ],
     "hash": [
-        "a570904d48fb1fad9a0a28d1a66b6ee4d8ba2ddd099b6cfa9cdb52d7a28a1c5a",
+        "46421b7900344e129e2b03e0f9ba076e20491415a6cdd7e4d04b4a90c920f450",
         "097efe3062c2b0ba122b84d414e4fe47e3bbf3f0d29dd23a602f617b07855b7c",
         "7cbf9ac3eefe3d6c8875292d5d5eb7ac446278e55f09eba0c1c5056cd05ef2b4"
     ],
