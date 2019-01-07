@@ -8,7 +8,7 @@ The above guides are also useful for other programs in this bucket.
 ## Packages included
 - `cemu` [Cemu](http://cemu.info/) Wii U Emulator
 - `cemuhook` [Cemuhook](https://cemuhook.sshnuke.net/) by rajkosto
-- `cemugraphicpacks` [Cemu Graphic Packs](https://github.com/slashiee/cemu_graphic_packs) by slashiee
+- ~~`cemugraphicpacks` [Cemu Graphic Packs](https://github.com/slashiee/cemu_graphic_packs) by slashiee~~ Installation functionality is now built into Cemu
 - `cemu-shortcut` A tool to make shortcuts with games for Cemu
 - `titledumper` Wii U [Titledumper](https://gbatemp.net/threads/ddd-wiiu-title-dumper.418492/) (for ddd)
 - `dolphin-dev` Development version of [Dolphin](https://dolphin-emu.org/) (latest)
