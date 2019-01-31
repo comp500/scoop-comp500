@@ -10,7 +10,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.openttd.org/en/download-stable",
+        "url": "https://www.openttd.org/downloads/openttd-releases/latest.html",
         "re": "Latest release in stable is ([\\d.]+)"
     },
     "autoupdate": {
