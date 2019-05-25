@@ -3,7 +3,6 @@
     "version": "1.6.3",
     "url": "https://github.com/Syncplay/syncplay/releases/download/v1.6.3/Syncplay_1.6.3_Portable.zip",
     "hash": "5c3909ec82bc4151230cdca070fd3060b6544cf14e2b273966e57717f1285189",
-    "extract_dir": "syncplay_v1.6.3",
     "shortcuts": [
         [
             "Syncplay.exe",
@@ -20,7 +19,6 @@
     },
     "autoupdate": {
         "url": "https://github.com/Syncplay/syncplay/releases/download/v$version/Syncplay_$version_Portable.zip",
-        "extract_dir": "syncplay_v$version",
         "hash": {
             "mode": "extract",
             "url": "https://syncplay.pl/news/",
