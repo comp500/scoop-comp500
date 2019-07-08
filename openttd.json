@@ -1,8 +1,8 @@
 {
     "homepage": "https://www.openttd.org/en/",
-    "version": "1.9.1",
-    "url": "https://proxy.binaries.openttd.org/openttd-releases/1.9.1/openttd-1.9.1-windows-win64.zip",
-    "hash": "47de0dc665ca3ce58f05ebad814957e04f4605e5e7474ffb0163f69ebe677caf",
+    "version": "1.9.2",
+    "url": "https://proxy.binaries.openttd.org/openttd-releases/1.9.2/openttd-1.9.2-windows-win64.zip",
+    "hash": "b1829382b632978ed6dfd39cc9427259694e23b98b5efebf9de507ead737848f",
     "shortcuts": [
         [
             "openttd.exe",
