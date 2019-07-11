@@ -1,8 +1,8 @@
 {
     "homepage": "https://multimc.org/",
-    "version": "0.6.5",
-	"url": "https://files.multimc.org/downloads/mmc-stable-win32.zip",
-	"hash": "61b314a7aec49d0f237206955670787afd6fbd2f7f865199a0c8559fc0a1a3c1",
+    "version": "0.6.6",
+	"url": "https://github.com/MultiMC/MultiMC5/releases/download/0.6.6/mmc-stable-win32.zip",
+	"hash": "af52ac2577693a1b4e20293e0b5a3a8062fc5afac839b27cbad0356b85918f2b",
 	"extract_dir": "MultiMC",
     "shortcuts": [
         [
