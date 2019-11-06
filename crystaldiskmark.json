@@ -1,8 +1,8 @@
 {
     "homepage": "http://crystalmark.info/en/software/crystaldiskmark/",
-    "version": "6.0.2",
-    "url": "https://osdn.net/frs/redir.php?f=crystaldiskmark%2F68624%2FCrystalDiskMark6_0_2.zip#/CrystalDiskMark6_0_2.zip",
-    "hash": "77588fd291e207ecbb030c87ec271f82922d6e802ad837042e2f385f83b08e9d",
+    "version": "7.0.0",
+    "url": "https://osdn.net/frs/redir.php?f=crystaldiskmark%2F71859%2FCrystalDiskMark7_0_0.zip#/CrystalDiskMark7_0_0.zip",
+    "hash": "bb6556c836f67217c719e0ad6f32c1a7f56cf3d91f83e6228076ec0685153106",
     "architecture": {
         "32bit": {
             "shortcuts": [
