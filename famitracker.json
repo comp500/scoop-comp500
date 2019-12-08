@@ -12,5 +12,7 @@
     "checkver": "Download \\(v([0-9.]+)\\)",
     "autoupdate": {
         "url": "http://famitracker.com/files/FamiTracker-v$version.zip"
-    }
+    },
+    "description": "A free windows tracker for producing music for the NES/Famicom-systems.",
+    "license": "GPL-2.0-only"
 }

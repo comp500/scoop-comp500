@@ -39,5 +39,7 @@
         "hfiomlc01",
         "memorySearcher"
     ],
-    "pre_install": "Add-Content \"$dir\\keys.txt\" $null; Add-Content \"$dir\\settings.bin\" $null; \"@echo off`r`npushd $dir`r`nCemu.exe %*`r`npopd\" | out-file -Encoding ASCII $dir\\cemu.bat"
+    "pre_install": "Add-Content \"$dir\\keys.txt\" $null; Add-Content \"$dir\\settings.bin\" $null; \"@echo off`r`npushd $dir`r`nCemu.exe %*`r`npopd\" | out-file -Encoding ASCII $dir\\cemu.bat",
+    "description": "Experimental software to emulate Wii U applications on PC.",
+    "license": "Freeware"
 }

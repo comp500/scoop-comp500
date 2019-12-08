@@ -7,5 +7,7 @@
 	"checkver": {
 		"url": "https://github.com/dimok789/ddd/releases",
 		"re": "titledumper\\.win32\\.v([\\d.]+)\\.zip"
-	}
+	},
+	"description": "Wii U title dumper.",
+	"license": "GPL-3.0-only"
 }

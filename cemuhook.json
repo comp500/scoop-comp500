@@ -22,5 +22,7 @@
     "uninstaller": {
         "file": "cemuhook-uninstall.ps1"
     },
-    "notes": "When upgrading cemu, run cemuhook-install.ps1 or reinstall this package to fix cemuhook. If cemu is uninstalled before cemuhook, there will be errors in the uninstall, which you can safely ignore."
+    "notes": "When upgrading cemu, run cemuhook-install.ps1 or reinstall this package to fix cemuhook. If cemu is uninstalled before cemuhook, there will be errors in the uninstall, which you can safely ignore.",
+    "description": "Plugin for Cemu to add more features.",
+    "license": "Freeware"
 }

@@ -25,5 +25,7 @@
             "find": "Hashes for $basename[\\s\\S]*?SHA256:\\s+([a-fA-F0-9]{64})"
         }
     },
-    "notes": "See http://syncplay.pl/LUA to install the syncplay plugin for VLC"
+    "notes": "See http://syncplay.pl/LUA to install the syncplay plugin for VLC",
+    "description": "Free software that synchronises media players so that faraway friends can watch videos together.",
+    "license": "Apache-2.0"
 }

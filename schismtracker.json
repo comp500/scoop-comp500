@@ -29,5 +29,7 @@
                 "url": "https://github.com/schismtracker/schismtracker/releases/download/$version/schismtracker-$version-win64.zip"
             }
         }
-    }
+    },
+    "description": "A free and open-source reimplementation of Impulse Tracker.",
+    "license": "GPL-2.0-only"
 }

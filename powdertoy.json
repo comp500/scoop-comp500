@@ -20,5 +20,7 @@
         "Saves",
         "stamps",
         "powder.pref"
-    ]
+    ],
+    "description": "A free physics sandbox game.",
+    "license": "GPL-3.0-only"
 }
