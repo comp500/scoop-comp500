@@ -1,8 +1,8 @@
 {
     "homepage": "http://cemu.info/",
-    "version": "1.15.20",
+    "version": "1.15.20e",
     "url": "http://cemu.info/releases/cemu_1.15.20.zip",
-    "hash": "6a2e4c3a3834af7cb2fd41af6e2a47c1c65f57a63e20be017eae1d92311089ff",
+    "hash": "ddd707908195141b8763a120413fe8f00392c63ae6fe6dd019631ab83d8df8da",
     "extract_dir": "cemu_1.15.20",
     "shortcuts": [
         [
@@ -20,10 +20,10 @@
             "cemu-nopath"
         ]
     ],
-    "checkver": "http://cemu.info/releases/cemu_(.+).zip",
+    "checkver": "Latest release[\\s\\S]*?Cemu ((?<short>[0-9.]+)[a-z]?)",
     "autoupdate": {
-        "url": "http://cemu.info/releases/cemu_$version.zip",
-        "extract_dir": "cemu_$version"
+        "url": "http://cemu.info/releases/cemu_$matchShort.zip",
+        "extract_dir": "cemu_$matchShort"
     },
     "suggest": {
         "Microsoft Visual C++ 2015 X64 Redistributable": "extras/vcredist2015"
