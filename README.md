@@ -10,9 +10,7 @@ The above guides are also useful for other programs in this bucket.
 - `cemuhook` [Cemuhook](https://cemuhook.sshnuke.net/) by rajkosto
 - `cemu-shortcut` A tool to make shortcuts with games for Cemu
 - `titledumper` Wii U [Titledumper](https://gbatemp.net/threads/ddd-wiiu-title-dumper.418492/) (for ddd)
-- `multimc` [MultiMC](https://multimc.org/) Minecraft launcher
 - `syncplay` [Syncplay](http://syncplay.pl/) media player synchronizer
-- `syncplaybeta` [Syncplay](http://syncplay.pl/) media player synchronizer (beta)
 - `powdertoy` [The Powder Toy](http://powdertoy.co.uk/) game
 - `schismtracker` [Schism Tracker](http://schismtracker.org/) music tracker
 - `famitracker` [FamiTracker](http://famitracker.com/index.php) music tracker
@@ -38,6 +36,10 @@ The above guides are also useful for other programs in this bucket.
 	- Now available in the [games](https://github.com/Calinou/scoop-games) bucket
 - `smartty` [SmarTTY](http://smartty.sysprogs.com/) SSH client
 	- Now available in the extras bucket
+- `syncplaybeta` [Syncplay](http://syncplay.pl/) media player synchronizer (beta)
+	- I don't know why exactly I removed this
+- `multimc` [MultiMC](https://multimc.org/) Minecraft launcher
+	- Now available in the [games](https://github.com/Calinou/scoop-games) bucket
 
 ## WIP packages
 - `rdpwrap` *Requires admin to install/uninstall, script needed?*
