@@ -1,8 +1,8 @@
 {
     "homepage": "http://powdertoy.co.uk/",
-    "version": "94.1",
-    "hash": "b40877d4fcf8895987de059c0f87925743ce9626febe9fba00d97dd86bd4aaa9",
-    "url": "http://powdertoy.co.uk/Download/Builds/Build-343/powder-win32.zip",
+    "version": "95.0",
+    "hash": "40938ae1c894f5d580547766a9d458cc161ff99a32fea4e532c0b7eb05c7d2d3",
+    "url": "http://powdertoy.co.uk/Download/Builds/Build-344/powder-win32.zip",
     "shortcuts": [
         [
             "Powder.exe",
