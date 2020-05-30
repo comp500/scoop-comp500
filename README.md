@@ -12,7 +12,6 @@ The above guides are also useful for other programs in this bucket.
 - `titledumper` Wii U [Titledumper](https://gbatemp.net/threads/ddd-wiiu-title-dumper.418492/) (for ddd)
 - `syncplay` [Syncplay](http://syncplay.pl/) media player synchronizer
 - `powdertoy` [The Powder Toy](http://powdertoy.co.uk/) game
-- `schismtracker` [Schism Tracker](http://schismtracker.org/) music tracker
 - `famitracker` [FamiTracker](http://famitracker.com/index.php) music tracker
 
 ## Removed packages
@@ -40,6 +39,8 @@ The above guides are also useful for other programs in this bucket.
 	- I don't know why exactly I removed this
 - `multimc` [MultiMC](https://multimc.org/) Minecraft launcher
 	- Now available in the [games](https://github.com/Calinou/scoop-games) bucket
+- `schismtracker` [Schism Tracker](http://schismtracker.org/) music tracker
+	- Now available in the extras bucket
 
 ## WIP packages
 - `rdpwrap` *Requires admin to install/uninstall, script needed?*
