@@ -1,8 +1,8 @@
 {
     "homepage": "http://powdertoy.co.uk/",
-    "version": "95.0",
-    "hash": "40938ae1c894f5d580547766a9d458cc161ff99a32fea4e532c0b7eb05c7d2d3",
-    "url": "http://powdertoy.co.uk/Download/Builds/Build-344/powder-win32.zip",
+    "version": "96.1",
+    "hash": "d90dc83fce7290df51c4285450e7914ec319edc180aa2d3eddc592bbe9bc48d0",
+    "url": "http://powdertoy.co.uk/Download/Builds/Build-349/powder.zip",
     "shortcuts": [
         [
             "Powder.exe",
@@ -14,7 +14,7 @@
         "re": "Release[\\s\\w]*\">(?<version>[0-9.]+)[\\s\\S]+?Build[\\s\\w]*\">(?<build>[0-9]+)"
     },
     "autoupdate": {
-        "url": "http://powdertoy.co.uk/Download/Builds/Build-$matchBuild/powder-win32.zip"
+        "url": "http://powdertoy.co.uk/Download/Builds/Build-$matchBuild/powder.zip"
     },
     "persist": [
         "Saves",
