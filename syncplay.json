@@ -1,8 +1,8 @@
 {
     "homepage": "https://syncplay.pl/",
-    "version": "1.6.8",
-    "url": "https://github.com/Syncplay/syncplay/releases/download/v1.6.8/Syncplay_1.6.8_Portable.zip",
-    "hash": "9ed66d105c7b085baab249b705bf65bddfdd813da5b60eab889ee15e5467d49e",
+    "version": "1.6.9",
+    "url": "https://github.com/Syncplay/syncplay/releases/download/v1.6.9/Syncplay_1.6.9_Portable.zip",
+    "hash": "80a5c8f1facb6fe6c5d9351ae1e8ff881727d637e0a316f7c5ab50796c6e3f5a",
     "shortcuts": [
         [
             "Syncplay.exe",
