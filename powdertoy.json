@@ -1,8 +1,8 @@
 {
     "homepage": "http://powdertoy.co.uk/",
-    "version": "96.1",
-    "hash": "d90dc83fce7290df51c4285450e7914ec319edc180aa2d3eddc592bbe9bc48d0",
-    "url": "http://powdertoy.co.uk/Download/Builds/Build-349/powder.zip",
+    "version": "96.2",
+    "hash": "6d41983be71c9674a572fd9b64afa1a493b18ce368b904a4dd87d9d7929e10f8",
+    "url": "http://powdertoy.co.uk/Download/Builds/Build-350/powder.zip",
     "shortcuts": [
         [
             "Powder.exe",
