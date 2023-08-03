@@ -1,3 +1,6 @@
+# Archived
+Most of these packages are now available in the official buckets, and actually updated regularly! Go use those instead.
+
 # scoop-comp500
 General Scoop bucket for programs I use. If you want to use these files, feel free to take them for any purpose - they are in the public domain. They are provided without warranty, so don't sue me if it breaks stuff (it shouldn't).
 
